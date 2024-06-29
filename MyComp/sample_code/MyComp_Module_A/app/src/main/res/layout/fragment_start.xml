@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:transitionName="tran"
+    tools:context=".StartFragment">
+    <TextView
+        android:text="Self Introduction"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="90dp"
+        android:text="Start"
+        android:backgroundTint="@color/tran_back"/>
+</LinearLayout>
