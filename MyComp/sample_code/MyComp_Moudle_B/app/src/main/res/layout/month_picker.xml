@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<HorizontalScrollView
+    android:scrollIndicators="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.google.android.material.chip.ChipGroup
+    android:id="@+id/month_group"
+    app:singleSelection="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.chip.Chip
+        android:id="@+id/jan"
+        android:text="Jan"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/feb"
+        android:text="Feb"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/mar"
+        android:text="Mar"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/apl"
+    android:text="Apl"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/may"
+    android:text="May"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/jun"
+    android:text="Jun"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/jul"
+    android:text="Jul"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/aug"
+    android:text="Aug"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/sep"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:text="Sep"
+    android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+    android:id="@+id/oct"
+    android:text="Oct"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/nov"
+        android:text="Nov"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.chip.Chip
+        android:id="@+id/dec"
+        android:text="Dec"
+        style="@style/Widget.Material3.Chip.Suggestion"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+</com.google.android.material.chip.ChipGroup>
+</HorizontalScrollView>
+</LinearLayout>
