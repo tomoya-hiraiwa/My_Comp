@@ -91,6 +91,7 @@ class SearchFragment : Fragment() {
         b.apply {
             if (searchEdit.text.isNotEmpty()){
                 searchResData = allNewsData.filter { it.title.lowercase().contains(searchEdit.text.toString().lowercase()) }.toMutableList()
+                initSearchText = searchEdit.text.toString()
                 parentFragmentManager.beginTransaction()
                     .replace(R.id.fragmentContainerView,SearchResultFragment())
                     .commit()

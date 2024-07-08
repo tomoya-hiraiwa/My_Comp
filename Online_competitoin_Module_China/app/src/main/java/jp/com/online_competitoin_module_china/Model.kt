@@ -19,9 +19,13 @@ var allNewsData = mutableListOf<ShowNews>()
 
 var detailData = ShowNews()
 
+var initSearchText = ""
+
 var topNewsData = ShowTopNew()
 
 var searchResData = mutableListOf<ShowNews>()
+
+var showSearchResData = mutableListOf<List<ShowNews>>()
 
 var searchHotData = mutableListOf<List<ShowNews>>()
 
@@ -32,6 +36,8 @@ var tempData = mutableListOf<Temp>()
 var showTempData = mutableListOf<Temp>()
 
 val gson = Gson()
+
+val spinnerData = arrayListOf<String>("Time ↓","Time ↑")
 
 fun textParser(text: String): List<String>{
     return text.replace("[","").replace("]","").replace("/images/","").split("\n\n")

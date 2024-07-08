@@ -46,6 +46,11 @@ private lateinit var recomAdapter: NewsListAdapter
                     .replace(R.id.fragmentContainerView,HomeFragment())
                     .commit()
             }
+            b.search.setOnClickListener {
+                parentFragmentManager.beginTransaction()
+                    .add(R.id.fragmentContainerView,SearchFragment())
+                    .commit()
+            }
         }
     }
     private fun showDate(){
